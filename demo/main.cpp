@@ -1,5 +1,10 @@
-#include <example.hpp>
+#include <header.hpp>
+#include <iostream>
+
 
 int main() {
-  example();
+  // path  менять в зависимости от системы
+  std::string path("/home/noname/CLionProjects/lab4/misc/ftp");
+  Filesystem test(path);
+  std::cout << test;
 }

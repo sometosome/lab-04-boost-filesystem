@@ -1,7 +1,6 @@
-// Copyright by sometosome
-
 #include <header.hpp>
 #include <iostream>
+
 
 int main() {
   // path  менять в зависимости от системы
